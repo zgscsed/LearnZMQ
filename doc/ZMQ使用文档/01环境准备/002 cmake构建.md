@@ -30,5 +30,6 @@ add_executable(src ${srcs})
 mkdir build
 cd build
 cmake -G "MinGW Makefiles" ..
+make
 
 ```
